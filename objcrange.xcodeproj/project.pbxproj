@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375ECAB217CDD8AF009832AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375ECAB117CDD8AF009832AC /* XCTest.framework */; };
+		375ECABA17CDD8AF009832AC /* objcrange_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ECAB917CDD8AF009832AC /* objcrange_Tests.m */; };
+		375ECAC317CDD8E3009832AC /* NSNumber+ObjcRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 375ECAC217CDD8E3009832AC /* NSNumber+ObjcRange.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		375ECA9E17CDD889009832AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375ECAB017CDD8AE009832AC /* objcrange Tests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "objcrange Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		375ECAB117CDD8AF009832AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		375ECAB517CDD8AF009832AC /* objcrange Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objcrange Tests-Info.plist"; sourceTree = "<group>"; };
+		375ECAB917CDD8AF009832AC /* objcrange_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = objcrange_Tests.m; path = "objcrange Tests/objcrange_Tests.m"; sourceTree = "<group>"; };
+		375ECABB17CDD8AF009832AC /* objcrange Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objcrange Tests-Prefix.pch"; sourceTree = "<group>"; };
+		375ECAC117CDD8E3009832AC /* NSNumber+ObjcRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ObjcRange.h"; sourceTree = "<group>"; };
+		375ECAC217CDD8E3009832AC /* NSNumber+ObjcRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ObjcRange.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375ECAAD17CDD8AE009832AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375ECAB217CDD8AF009832AC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375ECA9217CDD889009832AC = {
+			isa = PBXGroup;
+			children = (
+				375ECAC117CDD8E3009832AC /* NSNumber+ObjcRange.h */,
+				375ECAC217CDD8E3009832AC /* NSNumber+ObjcRange.m */,
+				375ECAB917CDD8AF009832AC /* objcrange_Tests.m */,
+				375ECAB417CDD8AF009832AC /* Supporting Files */,
+				375ECA9D17CDD889009832AC /* Frameworks */,
+				375ECA9C17CDD889009832AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375ECA9C17CDD889009832AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375ECAB017CDD8AE009832AC /* objcrange Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375ECA9D17CDD889009832AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375ECA9E17CDD889009832AC /* Foundation.framework */,
+				375ECAB117CDD8AF009832AC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375ECAB417CDD8AF009832AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375ECAB517CDD8AF009832AC /* objcrange Tests-Info.plist */,
+				375ECABB17CDD8AF009832AC /* objcrange Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "objcrange Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375ECAAF17CDD8AE009832AC /* objcrange Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375ECABE17CDD8AF009832AC /* Build configuration list for PBXNativeTarget "objcrange Tests" */;
+			buildPhases = (
+				375ECAAC17CDD8AE009832AC /* Sources */,
+				375ECAAD17CDD8AE009832AC /* Frameworks */,
+				375ECAAE17CDD8AE009832AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objcrange Tests";
+			productName = "objcrange Tests";
+			productReference = 375ECAB017CDD8AE009832AC /* objcrange Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375ECA9317CDD889009832AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nicolas Bouilleaud";
+				TargetAttributes = {
+					375ECAAF17CDD8AE009832AC = {
+						TestTargetID = 375ECA9A17CDD889009832AC;
+					};
+				};
+			};
+			buildConfigurationList = 375ECA9617CDD889009832AC /* Build configuration list for PBXProject "objcrange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 375ECA9217CDD889009832AC;
+			productRefGroup = 375ECA9C17CDD889009832AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375ECAAF17CDD8AE009832AC /* objcrange Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375ECAAE17CDD8AE009832AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375ECAAC17CDD8AE009832AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375ECABA17CDD8AF009832AC /* objcrange_Tests.m in Sources */,
+				375ECAC317CDD8E3009832AC /* NSNumber+ObjcRange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		375ECAA717CDD889009832AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		375ECAA817CDD889009832AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		375ECABF17CDD8AF009832AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objcrange Tests/objcrange Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "objcrange Tests/objcrange Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		375ECAC017CDD8AF009832AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objcrange Tests/objcrange Tests-Prefix.pch";
+				INFOPLIST_FILE = "objcrange Tests/objcrange Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375ECA9617CDD889009832AC /* Build configuration list for PBXProject "objcrange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375ECAA717CDD889009832AC /* Debug */,
+				375ECAA817CDD889009832AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375ECABE17CDD8AF009832AC /* Build configuration list for PBXNativeTarget "objcrange Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375ECABF17CDD8AF009832AC /* Debug */,
+				375ECAC017CDD8AF009832AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375ECA9317CDD889009832AC /* Project object */;
+}
